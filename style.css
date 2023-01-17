@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.nav-section, .first-section{
+    background: #F8F8F8;
+
+}
+.navbar-nav{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.our-service-paragragh,.many-variations{
+    font-size: 18px;
+}
+.group-mask{
+background-color:#F8F8F8;
+border: 8px solid #F8F8F8;
+border-radius: 60px;    
+}
+.groupmask-paragraph{
+    font-size: 15px;
+}
+.Consultation{
+    font-size: 18px;
+    font-weight: bold;
+}
+.male-doctor-paragraph,.ellipse-paragraph{
+    font-size: 14px;
+}
+.Register-on-medichub, .photo-ellipse{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.Neurologist{
+    font-size: 16px;
+    background-color: #DFDFDF;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#0F895C;
+}
+.third-section{
+    background-image: url(little\ story\ background\ image.jpeg);
+    background-size: cover;
+    height: 564px;
+    position: relative;
+}
+.the-img{
+    position:absolute;
+    top: -155px;
+    width: 490px;
+    height:719px;
+}
+.button-book{
+    background-color: white;
+    color:#168B60;
+    border: none;
+    font-size: 16px;
+    padding: 2px 20px 2px 20px;
+   }
+   .passages{
+    font-size: 14px;
+   }
+   .majority{
+    font-size: 18px;
+   }
+
+   @media (max-width: 768px)  {
+    .female-female-doctor, .the-img{
+        height: auto;
+        max-width: 100%;
+
+    }
+    .row{
+    display:flex;
+    flex-direction: column-reverse;
+    }
+    .female-female-doctor{
+        height: auto;
+        max-width: 100%;
+    }
+      }
+      
